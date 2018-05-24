@@ -3,7 +3,8 @@
 namespace Pierrocknroll\LavarelPassportPurgeCommand\Console\Commands;
 
 use Illuminate\Console\Command;
-use Illuminate\Support\Carbon;
+//use Illuminate\Support\Carbon;
+use Carbon\Carbon; // in laravel 5.5 is correct functionality. 
 use Illuminate\Support\Facades\DB;
 
 class PurgeOldTokens extends Command
